@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "react-redux": "^7.2.0",
     "css-loader": "^4.3.0",
     "jest-junit": "^11.1.0",
     "react": "^16.13.1",
