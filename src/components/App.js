@@ -12,7 +12,7 @@ function App() {
       <h1>User Information</h1>
       <form>
         <div>
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Name:</label>
           <input
             type="text"
             id="name"
@@ -21,7 +21,7 @@ function App() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email:</label>
           <input
             type="email"
             id="email"
@@ -32,8 +32,8 @@ function App() {
       </form>
 
       <div className="output">
-        <h1>Name: {name}</h1>
-        <h1>Email: {email}</h1>
+        <h1>Name - {name}</h1>
+        <h1>Email - {email}</h1>
       </div>
     </div>
   );
