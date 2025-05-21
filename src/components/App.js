@@ -31,7 +31,7 @@ function App() {
         </div>
       </form>
 
-      <div>
+      <div className="output">
         <h1>Name: {name}</h1>
         <h1>Email: {email}</h1>
       </div>
