@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div>
+      <h1>User Information</h1>
       <form>
         <div>
           <label htmlFor="name">Name</label>
